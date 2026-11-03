@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppSalaAmbiental</string>
+    <string name="title_monitoreo">Monitoreo Ambiental</string>
+    <string name="title_manual">Control Manual del Ventilador</string>
+    <string name="title_login">Iniciar Sesión</string>
+    <string name="title_historial">Historial de Incidentes</string>
+
+    <string name="lbl_usuario">Usuario</string>
+    <string name="hint_usuario">Ingrese su usuario</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="hint_password">Ingrese su contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="msg_error_login">Usuario o contraseña incorrectos</string>
+
+    <string name="lbl_humedad">Humedad: %s</string>
+    <string name="lbl_temperatura">Temperatura: %s</string>
+    <string name="lbl_estado_aula">Estado: %s</string>
+    <string name="lbl_ventilador">Ventilador: %s</string>
+    <string name="lbl_velocidad">Velocidad: %s</string>
+    <string name="lbl_modo">Modo: %s</string>
+
+    <string name="lbl_encender_ventilador">Encender Ventilador</string>
+    <string name="lbl_velocidad_slider">Velocidad: %d%%</string>
+    <string name="lbl_estado_actual">Estado Actual del Dispositivo</string>
+    <string name="lbl_estado_ventilador_fmt">Ventilador: %s</string>
+    <string name="lbl_velocidad_fmt">Velocidad: %d%%</string>
+    <string name="lbl_modo_fmt">Modo: %s</string>
+    <string name="lbl_humedad_fmt">Humedad: %d%%</string>
+
+    <string name="lbl_historial_inicio">Inicio: %s</string>
+    <string name="lbl_historial_fin">Fin: %s</string>
+    <string name="lbl_historial_tipo">Tipo Final: %s</string>
+    <string name="en_curso">En curso</string>
+    <string name="historial_vacio">No hay incidentes registrados</string>
+    <string name="menu_historial">Historial de Incidentes</string>
+
+    <string name="estado_conectado">Conectado</string>
+    <string name="estado_sin_conexion">Sin conexión</string>
+    <string name="estado_modo_simulacion">MODO SIMULACIÓN</string>
+    <string name="estado_sin_ip">IP no configurada. Configure la IP del Arduino.</string>
+
+    <string name="titulo_controles">Controles</string>
+    <string name="btn_manual">Manual</string>
+    <string name="btn_automatico">Automático</string>
+    <string name="btn_volver">Volver</string>
+
+    <string name="menu_configuracion">Configuración</string>
+    <string name="dialog_title_config">Configuración del Arduino</string>
+    <string name="lbl_ip_arduino">Dirección IP del Arduino:</string>
+    <string name="hint_ip_arduino">Ej: 192.168.4.1</string>
+    <string name="helper_ip_arduino">Ej: 192.168.4.1 (si el Arduino crea su propia red) o la IP que muestre el Monitor Serie.</string>
+    <string name="lbl_modo_simulacion">Modo simulación</string>
+    <string name="btn_probar_conexion">Probar conexión</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <string name="ip_invalida">Formato IPv4 inválido. Ej: 192.168.4.1</string>
+    <string name="probando_conexion">Probando conexión con %s...</string>
+    <string name="conexion_probar_exito">Conexión exitosa. Humedad leída: %d%%</string>
+
+    <string name="msg_modo_auto_exito">Modo automático activado con éxito</string>
+    <string name="msg_modo_auto_error">Error al activar modo automático: %s</string>
+    <string name="msg_comando_manual_exito">Control manual enviado con éxito</string>
+    <string name="msg_comando_manual_error">Error al enviar control manual: %s</string>
+    <string name="msg_fan_encendido">Ventilador encendido (%d%%)</string>
+    <string name="msg_fan_apagado">Ventilador apagado</string>
+
+    <string name="err_sin_ip">Sin IP configurada</string>
+    <string name="err_timeout">Tiempo de espera agotado</string>
+    <string name="err_inalcanzable">No se pudo alcanzar el dispositivo</string>
+    <string name="err_http">Error HTTP (%d)</string>
+    <string name="err_respuesta_invalida">Respuesta inválida</string>
+
+    <string name="permiso_red_local_requerido">Se requiere el permiso de Red Local para comunicarse con el Arduino. Por favor concédalo en la configuración de la aplicación.</string>
+    <string name="permiso_denegado_titulo">Permiso de Red Local necesario</string>
+</resources>
